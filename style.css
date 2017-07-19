@@ -212,7 +212,7 @@ div#buttons > a:hover{
 @media screen and (max-width: 1440px) {
 	.borderContent h1{
 		font-family: 'Poiret One', serif;
-		font-size: 300%;
+		font-size: 600%;
 		font-weight: 600;
 		align-self: center;
 		text-shadow:3px 2px 5px #979FA4;
