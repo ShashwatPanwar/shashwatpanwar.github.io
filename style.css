@@ -16,7 +16,7 @@ html,body{
 	height: 100%;
 	width: 100%;
 	margin: auto;
-	background: url("bg.jpeg");
+	background: url("background.jpeg");
 	display: table;
 	top: 0;
 	background-size: cover;
