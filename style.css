@@ -114,7 +114,7 @@ div#buttons > a:hover{
 }
 
 /*--- Media Queries --*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 900px) {
 
 	.borderContent h1{
 		font-family: 'Poiret One', serif;
