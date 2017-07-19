@@ -209,7 +209,7 @@ div#buttons > a:hover{
 		padding-bottom: 26%;
 	}
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1440px) {
 	.borderContent h1{
 		font-family: 'Poiret One', serif;
 		font-size: 300%;
@@ -254,19 +254,6 @@ div#buttons > a:hover{
 		width: 100%;
 		max-width: none;
 		padding-bottom: 40%;
-
-	}
-	div#buttons{
-		padding-top: 10%;
-		vertical-align: middle;
-		text-align: center;
-	}
-	div#buttons > a{
-		padding: 2% 2%;
-		height: 50px;
-		width: 50px;
-	}
-	div#buttons > a:hover{
 	}
 }
 
