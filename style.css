@@ -16,7 +16,7 @@ html,body{
 	height: 100%;
 	width: 100%;
 	margin: auto;
-	background: url(http://oi67.tinypic.com/zx1weq.jpg);
+	background: url("bg.jpeg");
 	display: table;
 	top: 0;
 	background-size: cover;
