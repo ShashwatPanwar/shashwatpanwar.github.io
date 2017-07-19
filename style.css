@@ -114,7 +114,7 @@ div#buttons > a:hover{
 }
 
 /*--- Media Queries --*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
 
 	.borderContent h1{
 		font-family: 'Poiret One', serif;
@@ -131,26 +131,12 @@ div#buttons > a:hover{
 		margin-left:15%;
 		margin-right: 15%;
 	}
-	.intro .content2 {
-		display: table-cell;
-		vertical-align: middle;
-		width: 100%;
-		max-width: none;
-		position: absolute;
-	}
 	div#description{
 		text-align: center;
 		padding-top: 17%;
 		font-family: 'Poiret One', serif;
 		font-size: 100%;
 		font-weight: 600;
-	}
-	.intro .inner2{
-		display: table-cell;
-		vertical-align: top;
-		width: 100%;
-		max-width: none;
-		position: fixed;
 	}
 	div#menubar1{
 		padding: 1%;
@@ -168,11 +154,6 @@ div#buttons > a:hover{
 		border-radius: 10%;
 		transition: background 0.3s linear 0s, color 0.3s linear 0s;
 	}
-	div#menubar1 > a:hover{
-		background: #32596F;
-		color: #E4DED5;
-	}
-
 	.intro .inner3{
 		display: table-cell;
 		vertical-align: middle;
@@ -180,15 +161,112 @@ div#buttons > a:hover{
 		max-width: none;
 		padding-bottom: 20%;
 	}
+}
+@media screen and (max-width: 800px) {
+	.borderContent h1{
+		font-family: 'Poiret One', serif;
+		font-size: 325%;
+		font-weight: 600;
+		align-self: center;
+		text-shadow:3px 2px 5px #979FA4;
+		color: #133B50;
+		padding-top: 2%;
+	}
+	.borderContent h1{
+		border-bottom: 1px solid black;
+		border-color: #133B50;
+		margin-left:20%;
+		margin-right: 20%;
+	}
+	div#description{
+		text-align: center;
+		padding-top: 16%;
+		font-family: 'Poiret One', serif;
+		font-size: 80%;
+		font-weight: 600;
+	}
+	div#menubar1{
+		padding: 1%;
+		vertical-align: top;
+		text-align: right;
+	}
+	div#menubar1 > a{
+		font-family: 'Indie Flower', sans-serif;
+		font-size: 90%;
+		font-weight: 700;
+		padding: 5px 5px;
+		color: #000;
+		margin-right: 0%;
+		text-decoration: none;
+		border-radius: 10%;
+		transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	}
+	.intro .inner3{
+		display: table-cell;
+		vertical-align: middle;
+		width: 100%;
+		max-width: none;
+		padding-bottom: 26%;
+	}
+}
+@media screen and (max-width: 480px) {
+	.borderContent h1{
+		font-family: 'Poiret One', serif;
+		font-size: 300%;
+		font-weight: 600;
+		align-self: center;
+		text-shadow:3px 2px 5px #979FA4;
+		color: #133B50;
+		padding-top: 2%;
+	}
+	.borderContent h1{
+		border-bottom: 1px solid black;
+		border-color: #133B50;
+		margin-left:8%;
+		margin-right: 8%;
+	}
+	div#description{
+		text-align: center;
+		padding-top: 22%;
+		font-family: 'Poiret One', serif;
+		font-size: 70%;
+		font-weight: 600;
+	}
+	div#menubar1{
+		padding: 2%;
+		vertical-align: top;
+		text-align: center;
+	}
+	div#menubar1 > a{
+		font-family: 'Indie Flower', sans-serif;
+		font-size: 80%;
+		font-weight: 700;
+		padding: 5px 15px;
+		color: #000;
+		margin-right: 0%;
+		text-decoration: none;
+		border-radius: 10%;
+		transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	}
+	.intro .inner3{
+		display: table-cell;
+		vertical-align: middle;
+		width: 100%;
+		max-width: none;
+		padding-bottom: 40%;
+
+	}
 	div#buttons{
+		padding-top: 10%;
 		vertical-align: middle;
 		text-align: center;
 	}
 	div#buttons > a{
 		padding: 2% 2%;
+		height: 50px;
+		width: 50px;
+	}
+	div#buttons > a:hover{
 	}
 }
-@media screen and (max-width: 768px) {
-}
-@media screen and (max-width: 480px) {
-}
+
