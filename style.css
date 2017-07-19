@@ -222,14 +222,14 @@ div#buttons > a:hover{
 	.borderContent h1{
 		border-bottom: 1px solid black;
 		border-color: #133B50;
-		margin-left:8%;
-		margin-right: 8%;
+		margin-left:12%;
+		margin-right: 12%;
 	}
 	div#description{
 		text-align: center;
 		padding-top: 22%;
 		font-family: 'Poiret One', serif;
-		font-size: 70%;
+		font-size: 140%;
 		font-weight: 600;
 	}
 	div#menubar1{
@@ -239,7 +239,7 @@ div#buttons > a:hover{
 	}
 	div#menubar1 > a{
 		font-family: 'Indie Flower', sans-serif;
-		font-size: 80%;
+		font-size: 120%;
 		font-weight: 700;
 		padding: 5px 15px;
 		color: #000;
